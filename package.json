@@ -2,7 +2,7 @@
   "name": "lixiang-factory-cube",
   "displayName": "lixiang-factory-cube",
   "description": "cube-plugin",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "icon": "cube.png",
   "publisher": "lindazhong",
   "engines": {
@@ -28,7 +28,7 @@
         "path": "./snippets/cube.json"
       },
       {
-        "language": "vue",
+        "language": "vue-html",
         "path": "./snippets/cube-html.json"
       }
     ]
