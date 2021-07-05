@@ -1,0 +1,26 @@
+{
+  "cube-header": {
+    "scope": "html,vue",
+    "prefix": "cube-header",
+    "body": [
+      "<cube-header>\n\t<template #search>\n\t</template>\n\t<template #more-search>\n\t</template>\n\t<template #search-action>\n\t</template>\n\t<template #action>\n\t</template>\n</cube-header>"
+    ],
+    "description": "cube-header"
+  },
+  "cube-table": {
+    "scope": "html,vue",
+    "prefix": "cube-table",
+    "body": [
+      " <cube-table \n\t:data=\"tableData\" \n\t:table-columns=\"tableColumns\" \n\t:paginator=\"{show: true, total: tableTotalCount, currentPage: pageParam.current}\" \n\t@page-all-change=\"handlePageAllChange\" \n> \n\t<template #operation=\"{ row }\"> \n\t</template> \n</cube-table>"
+    ],
+    "description": "cube-table"
+  },
+  "cube-dialog": {
+    "scope": "html,vue",
+    "prefix": "cube-dialog",
+    "body": [
+      "<cube-dialog \n\ttitle=\"你的标题\" \n\t:visible.sync=\"showAddDialog\" \n\tcolumns=\"你需要的列的数量\"\n> \n\t<template #footer>\n\t</template>\n</cube-dialog>"
+    ],
+    "description": "cube-table"
+  }
+}

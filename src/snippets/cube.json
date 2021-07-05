@@ -1,0 +1,26 @@
+{
+  "cube-header-template": {
+    "scope": "javascript,typescript",
+    "prefix": "cube-header",
+    "body": ["import CubeHeader from \"@shared/components/cube-header\";"],
+    "description": "import cubeheader"
+  },
+  "cube-table-template": {
+    "scope": "javascript,typescript",
+    "prefix": "cube-table",
+    "body": ["import CubeTable from \"@shared/components/cube-table\";"],
+    "description": "import cubetable"
+  },
+  "cube-dialog-template": {
+    "scope": "javascript,typescript",
+    "prefix": "cube-dialog",
+    "body": ["import CubeDialog from \"@shared/components/cube-dialog\";"],
+    "description": "import cubedialog"
+  },
+  "Print to console": {
+    "scope": "javascript,typescript",
+    "prefix": "clog",
+    "body": ["console.log('$1', $2);"],
+    "description": "Log output to console"
+  }
+}
