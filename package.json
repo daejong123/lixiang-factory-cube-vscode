@@ -24,11 +24,11 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./src/snippets/cube.json"
+        "path": "./snippets/cube.json"
       },
       {
         "language": "html",
-        "path": "./src/snippets/cube-html.json"
+        "path": "./snippets/cube-html.json"
       }
     ]
   },
